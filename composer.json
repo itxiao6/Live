@@ -16,6 +16,5 @@
   },
   "autoload": {
     "psr-4": { "Itxiao6\\Live\\": "./src" }
-  },
-  "minimum-stability":"1.0.1"
+  }
 }
