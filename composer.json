@@ -1,6 +1,6 @@
 {
   "name": "itxiao6/live",
-  "description": "抓取第三方直播",
+  "description": "直播抓取，支持的直播:斗鱼直播，花椒直播，熊猫直播，映客直播，一直播",
   "keywords": ["直播抓取","直播","熊猫直播","斗鱼直播","花椒直播","一直播","映客直播"],
   "homepage": "http://github.com/itxiao6/live",
   "license": "MIT",
