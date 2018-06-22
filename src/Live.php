@@ -21,8 +21,7 @@ class Live
     /**
      * 自动检测直播类型
      * @param $url
-     * @return array
-     * @throws \Exception
+     * @return \Itxiao6\Live\Driver|mixed
      */
     function auto($url)
     {
