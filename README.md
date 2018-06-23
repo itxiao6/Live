@@ -1,5 +1,5 @@
 ### 直播抓取
-#### 支持的直播平台:斗鱼直播、花椒直播、熊猫直播、映客直播、一直播
+#### 支持的直播平台:YY直播、斗鱼直播、花椒直播、熊猫直播、映客直播、一直播
 
 ### 使用步骤
 ##### 1. 使用composer 安装
@@ -38,12 +38,10 @@ echo '<html>
     </head>    
 <body>
   <h1>直播间</h1>    
-    <video id="my-video" class="video-js" controls preload="auto" width="640" height="300" data-setup="{}">
-   '.$res -> get_source().'
- </video>    
+    <video id="my-video" class="video-js" controls preload="auto" width="640" height="300" data-setup="{}"> '.$res -> get_source().' </video>    
  <script src="https://cdn.bootcss.com/video.js/5.5.3/video.js"></script>
 </body>    
 </html>';
 ```
-##### 3.访问测试页面(播放器使用的 Video.js) [参考链接](https://github.com/videojs/video.js)
+##### 3.访问测试页面(播放器使用的 Video.js) [文档参考链接](https://github.com/videojs/video.js)
 ###### 访问:http://examples.com/test.php?url=正在直播的页面地址

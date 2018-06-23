@@ -6,6 +6,7 @@ use Itxiao6\Live\Driver\HuaJiao;
 use Itxiao6\Live\Driver\XiongMao;
 use Itxiao6\Live\Driver\YingKe;
 use Itxiao6\Live\Driver\YiZhiBo;
+use Itxiao6\Live\Driver\YY;
 
 class Live
 {
@@ -39,6 +40,9 @@ class Live
         }
         else if(preg_match('!inke\.cn!',$url)){
             return YingKe::getInterface($url);
+        }
+        else if(preg_match('!yy\.com!',$url)){
+            return YY::getInterface($url);
         }
     }
 }
